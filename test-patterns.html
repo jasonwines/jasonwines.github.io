@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wines PhotoDesign | Test Patterns</title>
     <style>
-        /* Exact CSS variables from index.html */
         :root {
             --bg-color: #121212;
             --text-color: #f4f4f5;
@@ -31,7 +30,6 @@
             position: relative;
         }
 
-        /* Added a back link for easy navigation */
         .back-link {
             position: absolute;
             top: 2rem;
@@ -106,7 +104,6 @@
             font-size: 0.95rem;
         }
 
-        /* Special styling for Coming Soon boxes */
         .tool-card.coming-soon {
             opacity: 0.5;
             cursor: not-allowed;
@@ -143,20 +140,19 @@
 <body>
 
 <header>
-    <a href="index.html" class="back-link">&larr; Back to Workbench</a>
+    <!-- Pointing to "/" drops the user at the clean domain root -->
+    <a href="/" class="back-link">&larr; Back to Workbench</a>
     <h1 class="brand">Test Pattern <span>Generators</span></h1>
-    <p class="intro">Generate accurate visual test patterns for display calibration, alignment, and signal verification across AV integration, projection and videography workflows.</p>
+    <p class="intro">Generate accurate visual test patterns for display calibration, alignment, and signal verification across AV integration and photography workflows.</p>
 </header>
 
 <main>
     <div class="tools-grid">
-        <!-- Basic Test Pattern Gen Link -->
         <a href="basic-pattern.html" class="tool-card">
             <h2>Basic Test Pattern Gen</h2>
             <p>Generate standard color bars, grayscale ramps, and foundational alignment grids for quick display verification.</p>
         </a>
         
-        <!-- Vioso Clone Link -->
         <a href="vioso-clone.html" class="tool-card">
             <h2>Vioso Clone</h2>
             <p>Advanced projection mapping and alignment tools inspired by Vioso for complex geometric corrections.</p>
@@ -165,15 +161,15 @@
         <!-- Coming Soon Box 1 -->
         <div class="tool-card coming-soon">
             <span class="badge">Coming Soon</span>
-            <h2>Dynamic HDR Patterns</h2>
-            <p>Test tools specifically designed for verifying HDR metadata, peak brightness, and wide color gamut accuracy.</p>
+            <h2>Project Alpha</h2>
+            <p>A new experimental utility is currently in development. Check back later for updates and initial release details.</p>
         </div>
 
         <!-- Coming Soon Box 2 -->
         <div class="tool-card coming-soon">
             <span class="badge">Coming Soon</span>
-            <h2>Motion Blur Validator</h2>
-            <p>Interactive tracking tools and panning patterns to evaluate display response time and motion handling.</p>
+            <h2>Project Beta</h2>
+            <p>Details are still under wraps, but another custom tool will be added to this space in the near future.</p>
         </div>
     </div>
 </main>
