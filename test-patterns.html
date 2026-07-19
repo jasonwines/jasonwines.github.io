@@ -135,6 +135,25 @@
             font-size: 0.85rem;
             margin-top: 4rem;
         }
+
+        /* Styled contact link */
+        .contact-info {
+            margin-bottom: 1rem;
+            font-size: 0.95rem;
+            color: #a1a1aa;
+        }
+
+        .contact-info a {
+            color: var(--accent-color);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.2s ease;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+            color: #38bdf8;
+        }
     </style>
 </head>
 <body>
@@ -175,7 +194,12 @@
 </main>
 
 <footer>
-    &copy; 2026 Jason Wines | Wines PhotoDesign. All rights reserved.
+    <div class="contact-info">
+        Contact: <a href="mailto:info@winesphotodesign.com">info@winesphotodesign.com</a>
+    </div>
+    <div>
+        &copy; 2026 Jason Wines | Wines PhotoDesign. All rights reserved.
+    </div>
 </footer>
 
 </body>
